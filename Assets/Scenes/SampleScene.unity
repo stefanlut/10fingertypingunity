@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 103254988}
+  - component: {fileID: 103254989}
   m_Layer: 0
   m_Name: Letter_Sets
   m_TagString: Untagged
@@ -154,6 +155,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103254989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103254987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6946c093410b14ab6394d65d3411bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Row1: []
+  Row2: []
+  Row3: []
 --- !u!1 &129530024
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +295,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 175208557}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &175208560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,7 +437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: O
+  m_text: 9
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -553,6 +571,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 264506237}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &264506240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -692,6 +712,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 314275786}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &314275789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,7 +854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Y
+  m_text: 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -966,6 +988,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 457057097}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &457057100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1190,7 +1214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: T
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1324,6 +1348,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 692342291}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &692342294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1464,7 +1490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: W
+  m_text: 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1599,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: R
+  m_text: 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1734,7 +1760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I
+  m_text: 8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1868,6 +1894,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 1382562467}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &1382562470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2008,7 +2036,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: E
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2143,7 +2171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: U
+  m_text: 7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2278,7 +2306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: P
+  m_text: 10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2413,7 +2441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Q
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2547,6 +2575,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 2054027044}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &2054027047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2686,6 +2716,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 2058124759}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &2058124762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2935,6 +2967,8 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 2125793008}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
 --- !u!114 &2125793011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3156,3 +3190,5 @@ MonoBehaviour:
   letter: 
   button: {fileID: 0}
   obj: {fileID: 2129287397}
+  LetterSetsOBJ: {fileID: 0}
+  LS: {fileID: 0}
