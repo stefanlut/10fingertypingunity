@@ -9,20 +9,20 @@ using TMPro;
 public class KeyboardInput : MonoBehaviour
 {
     
-    public String key;
-    public Event e;
+    String key;
+    Event e;
     public string letter;
-    public Button button;
+    Button button;
     public GameObject obj;
-    bool enabled = false;
+    
     public GameObject LetterSetsOBJ;
-    public LetterSets LS;
+    LetterSets LS;
     int idNum;
-    enum rowstates
+    public enum rowstates
     {
         Row1, Row2, Row3
     }
-    rowstates state = rowstates.Row2;
+    public rowstates state = rowstates.Row2;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,35 +37,39 @@ public class KeyboardInput : MonoBehaviour
         letter = LS.Row2[idNum - 1];
         button.GetComponentInChildren<TMP_Text>().text = letter;
     }
+
     private void OnGUI()
     {
+        //called on every frame
         e = Event.current;
         key = Event.current.keyCode.ToString();
-        switch (key)
+        switch(e.keyCode) // correcting for specific keyboard layout
         {
-            case "Comma":
+            case KeyCode.Comma:
                 key = ",";
                 break;
-            case "Period":
+            case KeyCode.Period:
                 key = ".";
                 break;
-            case "Slash":
+            case KeyCode.Slash:
                 key = "?";
                 break;
-            case "Semicolon":
+            case KeyCode.Semicolon:
                 key = "M";
                 break;
-            case "M":
+            case KeyCode.M:
                 key = "!";
                 break;
+
         }
+        
 
         //if (e.keyCode != KeyCode.None) Debug.Log(key);
         if (e.type == EventType.KeyUp && e.keyCode != KeyCode.None && key.Equals(letter))
         {
             
             StartCoroutine(WaitCoroutine());
-            
+            //StartCoroutine(LS.RandomLetterCoroutine());
         }
       
     }

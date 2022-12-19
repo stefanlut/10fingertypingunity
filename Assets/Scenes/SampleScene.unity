@@ -170,6 +170,8 @@ MonoBehaviour:
   Row1: []
   Row2: []
   Row3: []
+  keyButton: {fileID: 2129287397}
+  randButton: {fileID: 0}
 --- !u!1 &129530024
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +254,7 @@ GameObject:
   - component: {fileID: 175208560}
   - component: {fileID: 175208559}
   m_Layer: 5
-  m_Name: T
+  m_Name: But5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 0}
+  m_AnchoredPosition: {x: -200, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &175208559
@@ -291,12 +293,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 175208557}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &175208560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 264506240}
   - component: {fileID: 264506239}
   m_Layer: 5
-  m_Name: U
+  m_Name: But7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,7 +552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 0}
+  m_AnchoredPosition: {x: 300, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264506239
@@ -567,12 +567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 264506237}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &264506240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,7 +667,7 @@ GameObject:
   - component: {fileID: 314275789}
   - component: {fileID: 314275788}
   m_Layer: 5
-  m_Name: Y
+  m_Name: But6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -693,7 +691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -300, y: 0}
+  m_AnchoredPosition: {x: 200, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314275788
@@ -708,12 +706,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 314275786}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &314275789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,7 +941,7 @@ GameObject:
   - component: {fileID: 457057100}
   - component: {fileID: 457057099}
   m_Layer: 5
-  m_Name: O
+  m_Name: But9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 500, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &457057099
@@ -984,12 +980,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 457057097}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &457057100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +1299,7 @@ GameObject:
   - component: {fileID: 692342294}
   - component: {fileID: 692342293}
   m_Layer: 5
-  m_Name: I
+  m_Name: But8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,7 +1323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 0}
+  m_AnchoredPosition: {x: 400, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &692342293
@@ -1344,12 +1338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 692342291}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &692342294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1851,7 +1843,7 @@ GameObject:
   - component: {fileID: 1382562470}
   - component: {fileID: 1382562469}
   m_Layer: 5
-  m_Name: E
+  m_Name: But3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1875,7 +1867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: 0}
+  m_AnchoredPosition: {x: -400, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382562469
@@ -1890,12 +1882,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 1382562467}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &1382562470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,7 +2522,7 @@ GameObject:
   - component: {fileID: 2054027047}
   - component: {fileID: 2054027046}
   m_Layer: 5
-  m_Name: P
+  m_Name: But10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2556,7 +2546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 0}
+  m_AnchoredPosition: {x: 600, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054027046
@@ -2571,12 +2561,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 2054027044}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &2054027047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2673,7 +2661,7 @@ GameObject:
   - component: {fileID: 2058124762}
   - component: {fileID: 2058124761}
   m_Layer: 5
-  m_Name: W
+  m_Name: But2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2697,7 +2685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -700, y: 0}
+  m_AnchoredPosition: {x: -500, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058124761
@@ -2712,12 +2700,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 2058124759}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &2058124762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2924,7 +2910,7 @@ GameObject:
   - component: {fileID: 2125793011}
   - component: {fileID: 2125793010}
   m_Layer: 5
-  m_Name: R
+  m_Name: But4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2948,7 +2934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: 0}
+  m_AnchoredPosition: {x: -300, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125793010
@@ -2963,12 +2949,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 2125793008}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
 --- !u!114 &2125793011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3065,7 +3049,7 @@ GameObject:
   - component: {fileID: 2129287399}
   - component: {fileID: 2129287402}
   m_Layer: 5
-  m_Name: Q
+  m_Name: But1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,7 +3073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800, y: 0}
+  m_AnchoredPosition: {x: -600, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2129287399
@@ -3186,9 +3170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4c5bdccbbc3429b8372ebbc70f588c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 
   letter: 
-  button: {fileID: 0}
   obj: {fileID: 2129287397}
   LetterSetsOBJ: {fileID: 0}
-  LS: {fileID: 0}
+  state: 1
